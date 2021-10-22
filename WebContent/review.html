@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>1조 프로젝트</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/serviceoffice_stylesheet.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="js/serviceoffice_style.js">
+    <link rel="stylesheet" href="css/font-stylesheet.css">
+    <style>
+        .title>a {
+            color: black;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="wrap_group">
+            <div>
+                <a href="index.jsp">
+                    <h1>IPSA</h1>
+                </a>
+            </div>
+            <div class="navbar_menu">
+                <ul class="top_navbar">
+                    <div class="navbar_item" style="display: inline-block;" onclick="location.href='board.html'"><a
+                            href="#" style="font-size: 20px;">예약문의</a></div>
+                    <div class="navbar_item" style="display: inline-block;" onclick="location.href='review.html'"><a
+                            href="#" style="font-size: 20px;">기타문의</a></div>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="board_wrap">
+        <div class="board_title">
+            <a href="board.html"><strong>기타문의</strong></a>
+            <p>IPSA의 기타문의를 할수있는 게시판입니다. </p>
+        </div>
+        <div id="wrab">
+            <form action="" autocomplete="on">
+                <input id="search" name="search" type="search" placeholder="어떤 문의를 찿으시나요?"><input id="search_submit"
+                    value="Rechercher" type="submit">
+            </form>
+        </div>
+        <div class="board_list_wrap">
+            <div class="board_list">
+                <div class="top">
+                    <div class="num">번호</div>
+                    <div class="title">제목</div>
+                    <div class="writer">작성자</div>
+                    <div class="date">작성일</div>
+                    <div class="count">조회</div>
+                </div>
+                <div>
+                    <div class="num">1</div>
+                    <div class="title"><a href="review1.html"> * 기타 * 강남점 세스코 문의 </a></div>
+                    <div class="writer">pt***님</div>
+                    <div class="date">2021.08.18</div>
+                    <div class="count">50</div>
+                </div>
+                <div>
+                    <div class="num">2</div>
+                    <div class="title"><a href="review2.html"> * 기타 * 인천지역 창업문의 </a></div>
+                    <div class="writer">sk***님</div>
+                    <div class="date">2021.02.11</div>
+                    <div class="count">210</div>
+                </div>
+                <div>
+                    <div class="num">3</div>
+                    <div class="title"><a href="review3.html"> * 기타 * 입사 장기간 할인혜택 문의 </a></div>
+                    <div class="writer">me***님</div>
+                    <div class="date">2020.10.11</div>
+                    <div class="count">150</div>
+                </div>
+                <div>
+                    <div class="num">4</div>
+                    <div class="title"><a href="review4.html"> * 기타 * 구로점 시설문의 </a></div>
+                    <div class="writer">pi***님</div>
+                    <div class="date">2020.07.25</div>
+                    <div class="count">186</div>
+                </div>
+                <div>
+                    <div class="num">5</div>
+                    <div class="title"><a href="review5.html"> * 기타 * 창업문의드려요 </a></div>
+                    <div class="writer">22***님</div>
+                    <div class="date">2020.04.15</div>
+                    <div class="count">350</div>
+                </div>
+
+            </div>
+            <div class="board_page">
+                <a href="#" class="bt first">
+                    &lt;&lt;</a>
+                <a href="#" class="bt prev">
+                    &lt;</a>
+                <a href="" class="num on">1</a>
+                <a href="" class="num">2</a>
+                <a href="" class="num">3</a>
+                <a href="" class="num">4</a>
+                <a href="" class="num">5</a>
+                <a href="#" class="bt next">&gt;</a>
+                <a href="#" class="bt last">&gt;&gt;</a>
+            </div>
+            <div class="bt_wrap">
+                <a href="write.html" class="on">등록</a>
+                <!--<a href="#">수정</a>-->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" style="padding-bottom: 0px;">
+        <div class="row">
+            <div class="col-md-3 info-big">
+                <a href="index.jsp">
+                    <img src="images/logo.png" style="height: 150px;">
+                </a>
+            </div>
+            <div class="col-md-5" style="line-height: 30px;">
+                <h2><strong>We support your success</strong></h2>
+                <p></p>
+                <p style="font-size: large;">Office IPSA where you can focus on your work. We provide the best work
+                    environment.
+                    Join us to go higher. It will be the most wonderful experience of your life. thank you.</p>
+            </div>
+            <div class="col-md-3" style="text-align: left; font-size: 
+            medium; line-height: 20px;">
+                <p><strong>IPSA(주) | 대표자 : 양승인</strong></p>
+                <p>
+                    사업자등록번호 : 123-4567-89<br>
+                    서울특별시 강남구 역삼동 819-3 삼오빌딩 5층<br>
+                    강남점 | 구로점 | 종로점<br>
+                    전화 : 02-333-4445<br>
+                    이메일 : hhm12345@naver.com
+                </p>
+            </div>
+    </footer>
+
+</body>
+
+</html>
