@@ -12,11 +12,20 @@
   
 <h2>✨주요 기능</h2>
   <ul>
+    <li>Servlet, jsp를 이용하여 구현</li>
     <li>메뉴바 왼쪽 고정</li>
     <li>카카오 맵 API를 이용하여 지도 구현</li>
     <li>회원가입, 로그인</li>
     <li>게시글 등록, 수정, 삭제</li>
     <li>상세페이지별 목록 표출</li>
   </ul>  
+  
+ <h2>⚒️사용기술</h2>
+  
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white)
+![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black)
+![html](https://img.shields.io/badge/Html-E34F26?style=flat-square&logo=Html5&logoColor=white)
+![css](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white)
   
 </div>
