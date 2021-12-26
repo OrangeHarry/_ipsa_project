@@ -3,6 +3,8 @@
 <h2>🏢입사(IPSA)</h2>
   <p>입사란 공유오피스 소개 웹페이지 입니다. 
   기본적인 UI설계 및 MySql 데이터베이스와 연동하는 것을 목표로 진행했던 프로젝트입니다.</p>
+  ![20211226_180944](https://user-images.githubusercontent.com/86067390/147403806-65daef3f-5b63-49c3-ac6d-1ea2d72147ff.png)
+
   
 <h2>🗓️개발기간(9일)</h2>
   <ul>
@@ -29,4 +31,7 @@
 ![css](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white)
 ![Apache Tomcat](https://img.shields.io/badge/ApacheTomcat-F8DC75?style=flat-square&logo=ApacheTomcat&logoColor=white)
   
+ # <h2>🧑‍💻소개파일</h2> 
+  [공유오피스 입사 소개파일](https://github.com/OrangeHarry/_ipsa_project/blob/master/%EA%B3%B5%EC%9C%A0%EC%98%A4%ED%94%BC%EC%8A%A4%20%EC%9E%85%EC%82%AC%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4.pdf)
+
 </div>
